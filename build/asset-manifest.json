@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.c362084a.css",
+    "main.js": "/react-gh-pages/static/js/main.cca40486.js",
+    "static/media/game-cover.svg": "/react-gh-pages/static/media/game-cover.858f40121874509683732959a6a9ad89.svg",
+    "static/media/angry-birds.svg": "/react-gh-pages/static/media/angry-birds.8add80cde74c3647757b2c913c4624c4.svg",
+    "static/media/road-img.svg": "/react-gh-pages/static/media/road-img.4c7a7a713040580abdc03f3a28c9fa33.svg",
+    "static/media/space-img.svg": "/react-gh-pages/static/media/space-img.8b684edf6bbd6a78ba4abeabe6a9cf34.svg",
+    "static/media/logo_pskovhack.svg": "/react-gh-pages/static/media/logo_pskovhack.e1961451e57b6ca7aaeff7e41f134420.svg",
+    "static/media/Cart.svg": "/react-gh-pages/static/media/Cart.1f92982d7cfcc6f575dd52d5fe41fb08.svg",
+    "static/media/black-star.svg": "/react-gh-pages/static/media/black-star.af23b6972ceea95e67c00aebe6431413.svg",
+    "static/media/empty-star.svg": "/react-gh-pages/static/media/empty-star.2c19fb5d829a4e3649da3b7fdebec67b.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "static/media/search.svg": "/react-gh-pages/static/media/search.661df27cb3dd2138d9a23486db0a325c.svg",
+    "static/media/star.svg": "/react-gh-pages/static/media/star.454cb9b5ec13bdd260095eee84a7e62e.svg",
+    "static/media/downloads-arrow.svg": "/react-gh-pages/static/media/downloads-arrow.89babb1bc667a4c5b716094e6cbd4a01.svg",
+    "static/media/category deck.svg": "/react-gh-pages/static/media/category deck.578c6d1b060bf15f62a8e1932fa1c1de.svg",
+    "static/media/close.svg": "/react-gh-pages/static/media/close.6139dde75db1f4f8e3b18f80fd89af73.svg",
+    "static/media/category phone.svg": "/react-gh-pages/static/media/category phone.189e798cd1f1fb01227ab15948ad5d66.svg",
+    "main.c362084a.css.map": "/react-gh-pages/static/css/main.c362084a.css.map",
+    "main.cca40486.js.map": "/react-gh-pages/static/js/main.cca40486.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c362084a.css",
+    "static/js/main.cca40486.js"
+  ]
+}
