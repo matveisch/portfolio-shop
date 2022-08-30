@@ -36,12 +36,6 @@ const rates = [
                 comment: 'good',
                 rate: 5,
                 user: 'Liam'
-            },
-            {
-                id: 3,
-                comment: 'bad',
-                rate: 2,
-                user: 'Jane'
             }
         ]
     },
@@ -65,6 +59,12 @@ const rates = [
                 comment: 'not so well',
                 rate: 1,
                 user: 'Nat'
+            },
+            {
+                id: 4,
+                comment: 'bad',
+                rate: 2,
+                user: 'Jane'
             }
         ]
     },
@@ -76,18 +76,6 @@ const rates = [
                 comment: 'excellent',
                 rate: 5,
                 user: 'Max'
-            },
-            {
-                id: 2,
-                comment: 'awesome',
-                rate: 5,
-                user: 'Liam'
-            },
-            {
-                id: 3,
-                comment: 'amazing',
-                rate: 5,
-                user: 'Jane'
             }
         ]
     },
@@ -110,6 +98,18 @@ const rates = [
                 id: 3,
                 comment: 'bad',
                 rate: 2,
+                user: 'Jane'
+            },
+            {
+                id: 4,
+                comment: 'awesome',
+                rate: 5,
+                user: 'Liam'
+            },
+            {
+                id: 5,
+                comment: 'amazing',
+                rate: 5,
                 user: 'Jane'
             }
         ]

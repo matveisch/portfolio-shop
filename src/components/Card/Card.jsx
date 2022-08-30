@@ -11,15 +11,15 @@ import {CommonContext} from "../../pages/Layout/Layout";
 
 import rates from '../../data/mocks/mock-rates';
 
+export const findAverageRating = (arr) => {
+    const { length } = arr;
+    return arr.reduce((acc, val) => {
+        return acc + (val.rate/length);
+    }, 0);
+};
+
 const Card = ({item}) => {
     const [rating, setRating] = useState(rates.find(rate => rate.id === Number(item.id)).rates);
-
-    const findAverageRating = (arr) => {
-        const { length } = arr;
-        return arr.reduce((acc, val) => {
-            return acc + (val.rate/length);
-        }, 0);
-    };
 
     const navigate = useNavigate();
 

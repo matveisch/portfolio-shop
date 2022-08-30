@@ -2,12 +2,14 @@ import React, {useState, useContext, useEffect} from 'react';
 import uniqid from "uniqid";
 import {CommonContext} from "../Layout/Layout";
 import mockGoods from '../../data/mocks/mock-goods'
+import mockRates from "../../data/mocks/mock-rates";
 
 import './Main.css';
 
 import NavBar from "../../components/NavBar/NavBar";
 import Dropdown from "../../components/Dropdown/Dropdown";
 import Card from "../../components/Card/Card";
+import {findAverageRating} from "../../components/Card/Card";
 
 export const sortByFilter = (property, array) => {
     return array.sort((a, b) => b[property] - a[property]);
@@ -42,6 +44,9 @@ const Main = () => {
             sortByFilter('id', filteredGoods);
             break;
         case ('По рейтингу'):
+            filteredGoods.forEach(good => {
+                good.rating = findAverageRating(mockRates.find(rate => rate.id === good.id).rates)
+            })
             sortByFilter('rating', filteredGoods);
             break;
         case ('По цене'):
