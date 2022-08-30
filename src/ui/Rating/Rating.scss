@@ -1,0 +1,26 @@
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  &__stars {
+    display: flex;
+    gap: 4px;
+
+    .star {
+      width: 16px;
+      height: 15px;
+    }
+  }
+
+  &__ratings-downloads {
+    display: flex;
+    gap: 16px;
+
+    .downloads {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+  }
+}

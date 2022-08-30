@@ -1,0 +1,68 @@
+.good-page {
+  display: grid;
+  padding: 32px 8% 0 calc(12% + 146px);
+  margin-bottom: 85px;
+}
+.good-page__name {
+  margin-bottom: 32px;
+}
+.good-page__description-blocks {
+  display: grid;
+  grid-template-columns: calc(70% - 12px) calc(30% - 12px);
+  grid-gap: 24px;
+}
+.good-page__description-blocks .carousel-description {
+  display: grid;
+  grid-gap: 32px;
+}
+.good-page__reviews {
+  width: 100%;
+}
+.good-page__reviews h2 {
+  margin-top: 64px;
+  margin-bottom: 32.75px;
+}
+.good-page__reviews .textarea-container {
+  position: relative;
+  margin-top: 16.5px;
+  margin-bottom: 32px;
+  width: calc(70% - 32px);
+}
+.good-page__reviews .textarea-container .review-textarea {
+  background-color: #EFF1F1;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  height: 132px;
+  padding: 16px;
+  resize: none;
+}
+.good-page__reviews .textarea-container .button {
+  position: absolute;
+  bottom: 16px;
+  right: -16px;
+}
+.good-page__reviews .reviews-list {
+  display: grid;
+  grid-gap: 8px;
+  width: 70%;
+}
+@media (max-width: 1000px) {
+  .good-page {
+    padding: 32px 8%;
+  }
+  .good-page .good-page__description-blocks {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .good-page .textarea-container {
+    width: calc(100% - 32px);
+  }
+}
+@media (max-width: 500px) {
+  .good-page {
+    padding: 32px 15px;
+  }
+}
+
+/*# sourceMappingURL=GoodPage.css.map */

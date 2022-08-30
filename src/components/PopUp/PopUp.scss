@@ -1,0 +1,156 @@
+.entrance {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events: auto;
+
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 8px;
+  padding: 40px 24px;
+
+  width: calc(360px - 48px);
+  height: fit-content;
+
+  .entrance-content {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    gap: 40px;
+
+    width: 100%;
+    //height: 100%;
+
+    .entrance-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 33px;
+      height: fit-content;
+
+      h2 {
+        cursor: pointer;
+      }
+    }
+
+    .inputs {
+      display: grid;
+      grid-gap: 16px;
+
+      input {
+        border: 1px solid #5B5B5B;
+        border-radius: 8px;
+        padding: 0 16px;
+        width: calc(312px - 32px);
+        height: 48px;
+      }
+
+      p {
+        justify-self: center;
+        margin-bottom: 12px;
+      }
+
+      .inputs-buttons {
+        display: grid;
+        grid-gap: 28px;
+        margin-top: 8px;
+      }
+    }
+  }
+
+  .forgot-password-content {
+    grid-gap: 24px;
+
+    @media (max-width: 500px) {
+      display: flex;
+      flex-direction: column;
+      //justify-content: center;
+      //align-items: center;
+      //margin: 16px;
+      //width: calc(100% - 32px);
+
+      h2 {
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 32px;
+      }
+
+      p {
+        margin-bottom: 16px;
+      }
+
+      .inputs {
+        width: 100%;
+
+        input {
+          width: calc(100%);
+        }
+      }
+
+      .login-signup-buttons {
+        margin-top: 32px;
+      }
+
+    }
+  }
+
+  @media (max-width: 500px) {
+    position: fixed;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    width: calc(100%);
+
+    height: 660px;
+
+    .entrance-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 60px;
+      gap: 0;
+      width: calc(100% - 32px);
+      padding: 16px;
+
+      .entrance-buttons {
+        margin-bottom: 32px;
+        margin-top: 32px;
+      }
+
+      .inputs {
+        width: 100%;
+
+        input {
+          width: calc(100% - 32px);
+        }
+      }
+
+      .inputs-buttons {
+        margin-bottom: 139px;
+      }
+    }
+  }
+}
+
+.close-btn {
+  position: absolute;
+  top: -60px;
+  right: -40px;
+
+  border-radius: 50%;
+  background-color: #1E1E1E;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  pointer-events: auto;
+
+  @media (max-width: 500px) {
+    top: -50px;
+    right: 10px;
+  }
+}

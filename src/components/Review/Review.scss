@@ -1,0 +1,14 @@
+.review {
+  display: flex;
+  gap: 8px;
+
+  &__main {
+    .author {
+      margin-bottom: 8.5px;
+    }
+
+    .review-text {
+      margin-top: 16px;
+    }
+  }
+}

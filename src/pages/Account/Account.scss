@@ -1,0 +1,43 @@
+.account {
+  display: grid;
+  margin: 0 calc(8% + 73.28px + 32px + 36px + 4%) 0 calc(8% + 152px + 4%);
+
+  &__title {
+    margin: 32px 0;
+  }
+
+  &__data {
+    background: #EFF1F1;
+    border-radius: 8px;
+    padding: 24px;
+
+    h2 {
+      margin-bottom: 32px;
+    }
+
+    .image-email {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 40px;
+    }
+
+    .email {
+      display: flex;
+      gap: 25px;
+
+      .change-email {
+        color: #494799;
+        cursor: pointer;
+      }
+    }
+
+    .change-password {
+      color: #494799;
+      cursor: pointer;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    margin: 0 8%;
+  }
+}

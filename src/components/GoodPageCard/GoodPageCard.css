@@ -1,0 +1,20 @@
+.good-card__images {
+  position: relative;
+}
+.good-card__images .cover-img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
+}
+.good-card__rating-button {
+  margin-top: 16.5px;
+}
+.good-card__rating-button .button {
+  margin-top: 16.5px;
+}
+.good-card__rating-button .rating-categories {
+  display: grid;
+  grid-gap: 8px;
+}
+
+/*# sourceMappingURL=GoodPageCard.css.map */

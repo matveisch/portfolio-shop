@@ -1,0 +1,26 @@
+.acc-dropdown {
+  width: calc(154px - 32px);
+  padding: 16px;
+
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 8px;
+  background: #FFFFFF;
+  z-index: 1;
+
+  //display: grid;
+  display: none;
+  grid-gap: 8px;
+
+  position: absolute;
+  top: 64px;
+  right: 8%;
+
+  p {
+    margin: 8px;
+    cursor: pointer;
+  }
+
+  hr {
+    border: 1px solid #EFF1F1;
+  }
+}

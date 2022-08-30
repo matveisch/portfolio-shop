@@ -1,0 +1,76 @@
+.good-page {
+  display: grid;
+  padding: 32px 8% 0 calc(8% + 4% + 146px);
+  margin-bottom: 85px;
+
+  &__name {
+    margin-bottom: 32px;
+  }
+
+  &__description-blocks {
+    display: grid;
+    grid-template-columns: calc(70% - 12px) calc(30% - 12px);
+    grid-gap: 24px;
+
+    .carousel-description {
+      display: grid;
+      grid-gap: 32px;
+    }
+  }
+
+  &__reviews {
+    width: 100%;
+
+    h2 {
+      margin-top: 64px;
+      margin-bottom: 32.75px;
+    }
+
+    .textarea-container {
+      position: relative;
+      margin-top: 16.5px;
+      margin-bottom: 32px;
+      width: calc(70% - 32px);
+
+      .review-textarea {
+        background-color: #EFF1F1;
+        border: none;
+        border-radius: 8px;
+        width: 100%;
+        height: 132px;
+        padding: 16px;
+        resize: none;
+      }
+
+      .button {
+        position: absolute;
+        bottom: 16px;
+        right: -16px;
+      }
+    }
+
+    .reviews-list {
+      display: grid;
+      grid-gap: 8px;
+
+      width: 70%;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    padding: 32px 8%;
+
+    .good-page__description-blocks {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .textarea-container {
+      width: calc(100% - 32px);
+    }
+  }
+
+  @media (max-width: 500px) {
+    padding: 32px 15px;
+  }
+}

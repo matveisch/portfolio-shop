@@ -1,0 +1,45 @@
+.dropdown {
+  position: absolute;
+
+  &__current-filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #FFFFFF;
+    border: 1px solid #494799;
+    border-radius: 8px;
+
+    width: 154px;
+    height: 40px;
+
+    cursor: pointer;
+
+    .filters-arrow {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__options {
+    position: absolute;
+    top: 48px;
+    z-index: 1;
+
+    background: #FFFFFF;
+
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 8px;
+
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    justify-content: center;
+    gap: 16px;
+
+    width: 154px;
+    padding: 24px 0;
+
+    p {
+      cursor: pointer;
+    }
+  }
+}

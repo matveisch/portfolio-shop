@@ -1,0 +1,24 @@
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.rating__stars {
+  display: flex;
+  gap: 4px;
+}
+.rating__stars .star {
+  width: 16px;
+  height: 15px;
+}
+.rating__ratings-downloads {
+  display: flex;
+  gap: 16px;
+}
+.rating__ratings-downloads .downloads {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/*# sourceMappingURL=Rating.css.map */

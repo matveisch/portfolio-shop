@@ -1,0 +1,42 @@
+.library-item {
+  background-color: #EFF1F1;
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  border-radius: 8px;
+}
+.library-item h1 {
+  margin: 0;
+}
+.library-item img {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.library-item__description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.library-item__description .text {
+  display: grid;
+  grid-gap: 8px;
+}
+.library-item__description .library-item-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 32px;
+}
+@media (max-width: 425px) {
+  .library-item {
+    padding: 16px;
+  }
+  .library-item img {
+    width: 100px;
+    height: 80px;
+  }
+}
+
+/*# sourceMappingURL=LibraryItem.css.map */

@@ -1,0 +1,25 @@
+.good-card {
+
+  &__images {
+    position: relative;
+
+    .cover-img {
+      object-fit: cover;
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+
+  &__rating-button {
+    margin-top: 16.5px;
+
+    .button {
+      margin-top: 16.5px;
+    }
+
+    .rating-categories {
+      display: grid;
+      grid-gap: 8px;
+    }
+  }
+}

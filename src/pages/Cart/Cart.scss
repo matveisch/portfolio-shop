@@ -1,0 +1,53 @@
+.cart {
+  margin: 24px 8% 0 calc(8% + 4% + 146px);
+
+  &__body {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 24px;
+    margin-top: 40px;
+  }
+
+  &__total-sum {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .total-and-button {
+      grid-column: 2;
+      background-color: #EFF1F1;
+      border-radius: 8px;
+      padding: 24px;
+      height: fit-content;
+    }
+
+    .total {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__items {
+    display: grid;
+    grid-gap: 16px;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  @media (max-width: 1000px) {
+    margin: 24px 8%;
+
+    .cart__body {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .total-and-button {
+      background-color: #FFFFFF;
+    }
+  }
+
+  @media (max-width: 500px) {
+    margin: 24px 15px 85px 15px;
+  }
+}

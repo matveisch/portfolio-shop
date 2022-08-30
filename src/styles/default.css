@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap");
+html, body {
+  background: #FFFFFF;
+  overflow-x: hidden;
+  max-width: 100%;
+  height: 100vh;
+  position: relative;
+}
+html *, body * {
+  padding: 0;
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+h1, h2, title {
+  font-style: normal;
+  font-weight: 600;
+  color: #1E1E1E;
+}
+
+.h1 {
+  font-size: 32px;
+}
+@media (max-width: 500px) {
+  .h1 {
+    font-size: 20px;
+  }
+}
+
+.h2 {
+  font-size: 24px;
+}
+@media (max-width: 500px) {
+  .h2 {
+    font-size: 18px;
+  }
+}
+
+.title {
+  font-size: 16px;
+}
+
+.body {
+  font-weight: 400;
+  font-size: 14px;
+  color: #1E1E1E;
+}
+
+.s-btn {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.rate {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #1E1E1E;
+}
+
+.tabs {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5B5B5B;
+}
+
+.counter {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  color: #1E1E1E;
+}
+
+.label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #1E1E1E;
+}
+
+.icon {
+  font-weight: 400;
+  font-size: 10px;
+  color: #1E1E1E;
+}
+
+.on-popup {
+  opacity: 0.5;
+  filter: Alpha(Opacity=50);
+}
+
+/*# sourceMappingURL=default.css.map */

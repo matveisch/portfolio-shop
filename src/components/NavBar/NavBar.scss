@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  ul {
+    display: flex;
+    gap: 20px;
+
+    list-style: none;
+
+    .chosen {
+      background: #EFF1F1;
+      border-radius: 8px;
+
+      a {
+        color: #302B62;
+      }
+    }
+
+    li {
+      padding: 8px 12px;
+      cursor: pointer;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        background: #EFF1F1;
+        border-radius: 8px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #5B5B5B;
+      }
+    }
+  }
+
+  @media (max-width: 425px) {
+
+  }
+}

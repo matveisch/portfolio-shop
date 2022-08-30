@@ -1,0 +1,12 @@
+.review {
+  display: flex;
+  gap: 8px;
+}
+.review__main .author {
+  margin-bottom: 8.5px;
+}
+.review__main .review-text {
+  margin-top: 16px;
+}
+
+/*# sourceMappingURL=Review.css.map */

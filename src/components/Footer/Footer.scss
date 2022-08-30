@@ -1,0 +1,28 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: calc(100% - 30px);
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  padding: 8px 15px 23px 15px;
+
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+
+  .icons {
+    display: grid;
+    padding: 2px 12.5px;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      justify-self: center;
+    }
+  }
+
+  @media (max-width: 500px) {
+    display: flex;
+  }
+}
