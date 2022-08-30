@@ -8,4 +8,4 @@ Although the app itself is pretty small and simple, it shows some of the things 
 
 The website can already be used as a starting point for developing a real-one online shop of any kind. It is fully responsive and works perfectly on both desktop and mobile platforms.
 
-Feel free to check it out on GitHub pages: https://matveisch.github.io/portfolio-shop/
+Feel free to check it out on Heroku: https://e-commerce-showcase.herokuapp.com/
